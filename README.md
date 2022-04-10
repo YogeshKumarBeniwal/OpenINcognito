@@ -7,6 +7,9 @@ Increase your productivity with incognito.
 
 To use this extension user need to allow it for incognito mode.
 
+## Download 
+You can download this plugin from [chrome webstore](https://chrome.google.com/webstore/detail/open-incognito/ophobceekijdgjilijkijingijhomkaj).
+
 ## Features
 * Open multiple tabs in incognito with just one click
 * Open links in incognito
