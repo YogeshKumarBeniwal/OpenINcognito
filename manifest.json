@@ -7,7 +7,7 @@
         "service_worker": "background.js"
     },
     "permissions": [
-        "contextMenus", "tabs"
+        "contextMenus", "tabs", "scripting"
     ],
     "action": {
         "default_popup": "popup.html",
@@ -23,5 +23,28 @@
         "32": "/images/INcognito_logo_32.png",
         "48": "/images/INcognito_logo_48.png",
         "128": "/images/INcognito_logo_128.png"
+    },
+    "commands": {
+        "open_link_incognito": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+L",
+                "mac": "MacCtrl+Shift+L"
+            },
+            "description": "Open the selected link in an incognito window"
+        },
+        "search_text_incognito": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+S",
+                "mac": "MacCtrl+Shift+S"
+            },
+            "description": "Search the selected text in an incognito window"
+        },
+        "open_page_incognito": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+P",
+                "mac": "MacCtrl+Shift+P"
+            },
+            "description": "Open the current page in an incognito window"
+        }
     }
 }
