@@ -1,7 +1,7 @@
 {
     "name": "Open INcognito",
     "description": "An extension to help you open links in the Incognito window with just one click.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
